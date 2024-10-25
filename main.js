@@ -748,7 +748,7 @@ async function main() {
         // location.href,
         params.get("url") || "output1.splat",
         // "https://huggingface.co/cakewalk/splat-data/resolve/main/",
-        "https://coldsakrua.github.io/spikegs/output.splat",
+        "https://coldsakrua.github.io/spikegs/output1.splat",
     );
     const req = await fetch(url, {
         mode: "cors", // no-cors, *cors, same-origin
