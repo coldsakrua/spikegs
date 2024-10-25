@@ -746,7 +746,7 @@ async function main() {
     const url = new URL(
         // "nike.splat",
         // location.href,
-        params.get("url") || "output.splat",
+        params.get("url") || "output1.splat",
         // "https://huggingface.co/cakewalk/splat-data/resolve/main/",
         "https://coldsakrua.github.io/spikegs/output.splat",
     );
